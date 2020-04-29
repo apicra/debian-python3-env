@@ -1,6 +1,5 @@
 #!/bin/bash
-::py -m pip install --user virtualenv
-py pip install virtualenv
-py venv env
-.\env\Scripts\activate
+python3 pip install virtualenv && \
+python3 venv env && \
+. ./env/bin/activate && \
 pip install -r src/requirements.txt
