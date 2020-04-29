@@ -1,8 +1,8 @@
 #!/bin/bash
-py -V
-py -m pip -V
-py -m pip list
-where py
-where python3
-where pip
-where pip3
+python3 -V
+python3 -m pip -V
+python3 -m pip list
+which py
+which python3
+which pip
+which pip3
